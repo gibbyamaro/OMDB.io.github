@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(48, 0, 67);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title {
+    background-color: black;
+    position: sticky;
+    font-family: 'Oswald', sans-serif;
+    color: white; 
+    padding: 3vh;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 0.25vh white;
+    color: white;
+}
